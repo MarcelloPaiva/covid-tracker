@@ -40,17 +40,6 @@ module.exports = {
         defaultQuality: 75,
       },
     },
-    {
-      resolve: 'gatsby-source-graphql',
-      options: {
-        // Arbitrary name for the remote schema Query type
-        typeName: 'COVID',
-        // Field under which the remote schema will be accessible. You'll use this in your Gatsby query
-        fieldName: 'covid',
-        // Url to query from
-        url: 'https://github.com/rlindskog/covid19-graphql',
-      },
-    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-material-ui',
     'gatsby-plugin-react-helmet',
